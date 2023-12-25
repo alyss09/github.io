@@ -1,0 +1,71 @@
+html, body{
+			height: 100%;
+			margin: 0;
+			font-family: 微軟正黑體;
+			font-size: 18px;
+			line-height: 1.8;
+		}
+		.bgimg01, .bgimg02, .bgimg03{
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			opacity: 0.6;
+			background-position: center;
+			position: relative;
+		}
+		.bgimg01{
+			background-image:url(images/img_parallax1.jpg);
+		  min-height: 100%;
+			}
+		.bgimg02{
+			background-image:url(images/img_parallax2.jpg);
+			min-height: 400px;
+		}
+		.bgimg03{
+			background-image:url(images/img_parallax3.jpg);
+			min-height: 400px;
+		}
+		.caption{
+			left: 0;
+			top: 45%;
+			position: absolute;
+			text-align: center;
+			width: 100%;
+		}
+		.caption span.box{
+			background-color: #111;
+			padding: 20px;
+			color: #fff;
+			font-size: 25px;
+			letter-spacing: 10px;
+			font-weight: bold;
+			opacity: 0.7;
+		}
+		.caption span.box2{
+		color: #ffff00;
+		background-color: transparent;
+		text-shadow: 3px 3px #393939;
+		opacity: 0.9;
+		}
+		.text01{
+			background-color: #e7e7e7;
+			padding: 50px 10%;
+			text-align: justify;
+			color: #777;
+		}
+		.text02, .text03{
+		background-color: #2a3333;
+		color: #ddd;
+		padding: 50px 10%;
+		text-align: justify;
+		}
+		.h300{
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		font-size: 20px;
+		color: #eeeeee;
+		}
+		.h301{
+		color: #000;
+		text-align: center;
+		}
