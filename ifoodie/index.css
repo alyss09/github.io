@@ -1,0 +1,135 @@
+#container{
+			background-color: #cccccc;
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 8px;
+		}
+		#header{
+			background-color: #99e6ff;
+		}
+		.header img{
+			width: 800px;
+			float: right;
+		}
+		.td01{
+		background-color: #4a4a4c;
+		background-repeat: repeat-x;
+		font-size: 20px;
+		font-weight: bolder;
+		font-family: Consolas;
+		color: #f7f1f0;
+		}
+		.td02{
+		background: linear-gradient(to bottom, #eee 10%, #cccccc 60%);
+		margin: 100px;
+		}
+		.td03{
+			width: 200px;
+		}
+		#menu{
+			background-color: #dddddd;
+			width: 200px;
+			float: left;
+			font-weight: bolder;
+		}
+		.menu01 {
+			padding-left: 20px;
+			padding-top: 20px;
+			padding-bottom: 17px;
+			border-bottom: 2px dotted #400010;
+		}
+		#content{
+			background-color: #ffffff;
+			width: 760px;
+			float: left;
+			padding: 20px;
+		}
+		h3{
+			background-image: url(images/1.png);
+			background-repeat: repeat-y;
+			color: #000000;
+			padding-left: 15px;
+			padding-top: 6px;
+			padding-bottom: 6px;
+		}
+		h2{
+		font-size: 18px;
+		width: 535px;
+		float: right;
+		}
+		.h201{
+		font-size: 18px;
+		width: 450px;
+		float: right;
+		margin-right:100px;
+		}
+		.h202{
+			width: 750px;
+		}
+		#footer {
+			background-color: #4a4a4c;
+			clear: both;
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			color: #fff;
+		}
+		body {
+			font-family: "微軟正黑體";
+			background: linear-gradient(to bottom, #ffffff 10%, #e1dcd9 60%);
+			background-repeat: repeat-x;
+		}
+    table.mystyle{
+		border-left: 1px solid #387f88;
+		border-bottom: 1px solid #387f88;
+		}
+		.mystyle td{
+		border-top: 1px solid #387f88;
+		border-right: 1px solid #387f88;
+		}
+		a:link {
+			color: #836239;
+			text-decoration: none;
+		}
+		a:visited {
+			color: #b8aa95;
+			text-decoration: none;
+		}
+		a:hover {
+			color: #403000;
+			text-decoration: none;
+		}
+		.p0{
+		width: 550px;
+		font-size: 40px;
+		font-weight: bolder;
+		font-family: Consolas;
+		float: right;
+		}
+		.p01{
+		width: 535px;
+		float: right;
+		}
+		.p02{
+		width: 450px;
+		float: right;
+		margin-right: 100px;
+		}
+		.p03{
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		.img01 {
+			border-radius: 5px;
+		}
+		.img02{
+			margin-top:5px;
+		}
+		.img03{
+			margin-left: 50px;
+			margin-top: 25px;
+		}
+		.img04{
+			margin-top: 15px;
+		}
