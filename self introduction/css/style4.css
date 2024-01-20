@@ -1,0 +1,130 @@
+@charset "utf-8";
+nav {
+	height: 60px;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 5px 5px 10px #767676;
+	box-shadow: 5px 5px 10px #767676;
+}
+ul li {
+	width: 70px;
+	height: 40px;
+	border-radius: 15px;
+	background-color: #F0E1D4;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 5px;
+	margin-left: 5px;
+	display: inline-block;
+	font-family: "微軟正黑體", "標楷體", "新細明體", "細明體";
+}
+.li2  {
+	height: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 0px;
+}
+
+ul {
+	padding-top: 10px;
+	margin: 0px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+
+ul h1 {
+	text-align: center;
+	float: left;
+	color: #000000;
+	width: 150px;
+	text-shadow: 0px 0px;
+	font-size: 30px;
+	line-height: 0px;
+	height: 40px;
+	margin-top: 20px;
+}
+.ai   {
+	color: #000000;
+	font-family: "微軟正黑體", "標楷體", "新細明體", "細明體";
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0px 0px #666666;
+	width: 70px;
+	height: 40px;
+	display: inline-block;
+}
+ul li a:visited {
+	color: #000000;
+}
+ul li a:hover {
+	color: #7D7D7D;
+	text-align: center;
+	text-shadow: -1px 0px;
+	margin-top: 0px;
+}
+
+.nav1 {
+	text-shadow: 0px 0px 0px #FFFFFF;
+	height: 100px;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	z-index: 0;
+
+
+
+}
+.nav1 ul li {
+	width: 120px;
+	height: 120px;
+	background-image: url(../img/%E9%A0%AD%E5%83%8F.jpg);
+	background-position: center center;
+	background-size: cover;
+	list-style-image: none;
+	position: relative;
+	z-index: 0;
+	display: inline-block;
+	float: left;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.container {
+	width: 960px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.block {
+	height: 600px;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 5px 5px 25px 5px #B3B3B3;
+	border-radius: 15px;
+	box-shadow: 5px 5px 25px 5px #B3B3B3;
+	z-index: 1;
+	position: relative;
+}
+.content {
+	width: 920px;
+	height: 560px;
+	padding: 20px;
+	border: none;
+	margin-top: -29px;
+}
+.aii   {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	width: 120px;
+	height: 120px;
+	display: inline-block;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.nav1 ul li:hover {
+	-webkit-opacity: 0.5;
+	opacity: 0.5;
+}
